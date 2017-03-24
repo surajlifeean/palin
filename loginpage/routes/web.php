@@ -19,6 +19,9 @@ Route::get('/widhei', function () {
     return view('pages.widhei');
 });
 
+Route::get('/select2', function () {
+    return view('pages.select2');
+});
 
 
 Route::resource('customers','CustomerController');

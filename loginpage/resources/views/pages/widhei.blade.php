@@ -12,7 +12,7 @@ $(document).ready(function(){
 	var txt2=$(document).height();
 	$('#coords').html(txt1+","+txt2);
 
-	if(e.pageX==0 || e.pageX==txt1-1 || e.pageY==0 || e.pageY==txt2-1)
+	if(e.pageY==0 || e.pageY==txt2-1)
 		alert("cheating not allowed");
    });
 	
